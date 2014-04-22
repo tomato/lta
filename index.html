@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>Agile Mindset at Biomni</title>
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/moon.css" id="theme">
+  <link href='css/rings.css' rel='stylesheet'>
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h2>Agile - It's not about the Sprints</h2>
+        <footer>by Tom Howlett <br/>@diaryofscrum </footer>
+      </section>
+
+      <!--
+      -->
+      <section>
+        <h3>Who Am I?</h3> 
+        <ul>
+          <li>I've spent 13 Years working on the development team at Biomni
+          <li>I've been blogging about my experiences for 5 years at "Diary of a Scrummaster"
+          <li>I'm writing a book called "The Programmers Guide To People"
+        </ul>
+      </section>
+      <section>
+        <h1>What is Agile?</h1>
+      </section>
+      <section>
+        <h2>Complex Problems Need Experimentation</h2>
+        <h3>Progress comes from short feedback cycles</h3>
+        <h3>Reflection drives Continuous Improvement</h3>
+      </section>
+      <section>
+        <h1>Started with an experiment</h1>
+      </section>
+      <section>
+        <h2>Crossfunctional Team</h2>
+        <ul>
+          <li>Multiple Perspectives
+          <li>Easier Commuinication
+       </ul>
+        <h3>Faster Feedback!</h3>
+      </section>
+      <section>
+        <h2>Autonomous Team</h2>
+        <ul>
+          <li>No Hierarchy within team
+          <li>Almost No Roles
+          <li>Supportive -> Couragous
+         </ul>
+        <h3>Honest Feedback</h3>
+      </section>
+      <section>
+        <h2>Conversation &amp; Collaboration &gt; Documentation</h2>
+      </section>
+      <section>
+        <h2>Quality faster than Shortcuts</h2>
+        <h3>Consider the cost of pressure</h3>
+      </section>
+      <section>
+        <h2>Product > Project</h2>
+      </section>
+      <section>
+        <h1>Practices</h1>
+        <ul>
+          <li>Standups, Retrospectives
+          <li>TDD - Testing all the time
+          <li>Pair Programming
+          <li>Continuous Integration
+      </section>
+      <section>
+        <h3>How does Agile Work?<h3/>
+        <svg class="rings" data-effect='[ 
+          { "nv":"Suspicion", "pv":"Visualisation","val":0, 
+          "cause":{"Work Together":9}},
+          { "nv":"Overloaded", "pv":"Small WIP","val":0,
+          "cause":{"Pull Work":5, "Pairing":2, "Have Conversations":2}},
+          { "nv":"Frustration", "pv":"Flow","val":0,
+          "cause":{"Have Conversations":3, "Test all the time":3, "Fix bugs":3}},
+          { "nv":"Blind", "pv":"Feedback Loops","val":0,
+          "cause":{"Have Conversations":3, "Pairing":3,"Test all the time":3}},
+          { "nv":"Ad-hoc", "pv":"Explicit Policies","val":0,
+          "cause":{"Reflect":9}},
+          { "nv":"Stagnation", "pv":"Continous Improvement","val":0, "purpose":true}]'
+          data-cause='[
+          { "nv":"Work Alone", "pv":"Work Together", "val":-30},
+          { "nv":"Assigned Work", "pv":"Pull Work", "val":-30},
+          { "nv":"Use Documents", "pv":"Have Conversations", "val":-30},
+          { "nv":"Code Reviews", "pv":"Pairing","val":-30},
+          { "nv":"Test at End", "pv":"Test all the time", "val":-30},
+          { "nv":"Log Bugs", "pv":"Fix bugs", "val":-30},
+          { "nv":"Keep Busy", "pv":"Reflect", "val":-30}]' >
+        </svg>
+      </section>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/d3.v3.min.js"></script>
+  <script src="js/rings.js"> </script>
+  <script src="js/head.min.js"></script>
+  <script src="js/reveal.min.js"></script>
+  <script>
+    Reveal.initialize();
+  </script>
+</body>
+
